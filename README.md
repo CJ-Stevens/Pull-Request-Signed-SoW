@@ -1,11 +1,14 @@
 # Pull-Request-Signed-SoW
 Assignment for week6
 
-    current_time = input("What is the current time (in hours 0 - 23)?")
-    wait_time = input("How many hours do you want to wait")
-
-    print(current_time)
-    print(wait_time)
-
-    final_time = current_time + wait_time
-    print(final_time)
+    def lone_sum(a, b, c):
+        if a >= b:
+            return c
+        elif a == c:
+            return b
+        elif b == c:
+            return a
+        elif a == b and a == c and b == c:
+            return 0
+        else:
+            return a+b+c
