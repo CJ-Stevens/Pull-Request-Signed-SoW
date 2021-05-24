@@ -17,4 +17,4 @@ Assignment for week6
     
     print(x)
     
-    
+  The out put................    
