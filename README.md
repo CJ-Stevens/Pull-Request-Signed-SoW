@@ -12,3 +12,5 @@ Assignment for week6
             return 0
         else:
             return a+b+c
+    x = lone_sum(15, 13, 12)
+    print(x)
