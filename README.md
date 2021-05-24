@@ -12,3 +12,9 @@ Assignment for week6
             return 0
         else:
             return a+b+c
+            
+    x = lone_sum(10,9,8)
+    
+    print(x)
+    
+    
